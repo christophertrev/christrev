@@ -135,6 +135,9 @@ body {
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 
@@ -148,10 +151,11 @@ body {
     position: fixed;
     top: 0;
   }
+  /*
   .mastfoot {
     position: fixed;
     bottom: 0;
-  }
+  }*/
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
